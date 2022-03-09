@@ -7,6 +7,7 @@ function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
     
     console.log(mergedNumbers)
     
+    // @ts-ignore
     const pivot = Math.trunc(mergedNumbers.length / 2);
     
     if (mergedNumbers.length % 2 === 0) {
